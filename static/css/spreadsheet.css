@@ -1,0 +1,51 @@
+td {
+  min-width: 20px;
+  height: 26px;
+  background-color: white;
+  padding:2px 0 0 3px;
+  vertical-align: top;
+  word-wrap: break-word;
+
+}
+td textarea {
+  min-width: 30px;
+  width:95%;
+  height:100%;
+  resize:none;
+  margin: -3px 0 -6px -3px;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  padding:3px 8px 3px 3px;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: hidden;
+}
+td textarea:focus{
+  background-color: #f6f6f9;
+  opacity: .6;
+}
+
+td[id*='_'] {
+  min-width: 160px; 
+  max-width: 170px;
+}
+
+td:hover{
+  cursor: pointer;
+}
+
+div {
+	margin: 10px 10px 0 0;
+	background-color: #EEEEEE;
+	padding:10px;
+  display:inline-block;
+  float:left;
+  width: 96%;
+  clear: left;
+  overflow:auto;
+}
+
+div.slot {
+  width: 45%;
+}
